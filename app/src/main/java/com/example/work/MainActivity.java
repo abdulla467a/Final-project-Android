@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful()){
                     Toast.makeText(MainActivity.this,"Login Successfully",Toast.LENGTH_LONG).show();
-                    Intent intent=new Intent(MainActivity.this,dashboardActivity.class);
+                    Intent intent=new Intent(MainActivity.this,Radio.class);
                     startActivity(intent);
                     finish();
                 }

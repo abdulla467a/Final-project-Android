@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.work">
-<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -10,6 +11,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Work">
+        <activity android:name=".FinalMark"></activity>
+        <activity android:name=".Radio" />
+        <activity android:name=".Radio5" />
+        <activity android:name=".Radio4" />
+        <activity android:name=".Radiio3" />
+        <activity android:name=".Radio2" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,8 +24,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SignUp"/>
-        <activity android:name=".dashboardActivity"/>
+        <activity android:name=".SignUp" />
     </application>
 
 </manifest>
